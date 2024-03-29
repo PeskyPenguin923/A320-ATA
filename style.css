@@ -89,7 +89,8 @@ body {
 
 .reference-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 500px));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 500px));
+    justify-content: center;
 }
 
 .reference-header {
@@ -108,4 +109,8 @@ body {
 
 .reference-container div {
     padding: 2%;
+}
+
+.main-common {
+    display: grid;
 }
