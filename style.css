@@ -124,3 +124,10 @@ body {
     color: red;
     font-size: larger;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+}
