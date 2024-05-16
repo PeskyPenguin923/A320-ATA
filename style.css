@@ -114,3 +114,13 @@ body {
 .main-common {
     display: grid;
 }
+
+.disclaimer-max {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+}
